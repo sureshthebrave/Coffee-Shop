@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Asul", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* navbar section start */
+
+.n{
+    background:blue;
+}
+
+.n ul li a{
+    color: white;
+}
+.logo{
+    height: 50px;
+    position: relative;
+    left: 60px;
+}
+
+.na{
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+.na:hover{
+    background-color: rgb(255, 255, 255);
+}
+/* navbar section end */
+
+
+/* Home section start */
+.bg{
+    background:linear-gradient(to left,rgba(0, 0, 0, 0.979),rgba(0, 0, 0, 0.673)), url("Images/bg.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg h1{
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    top: 200px;
+}
+
+.bg p{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 200px;
+    text-transform: capitalize;
+}
+
+.btn button{
+    position: relative;
+    top: 220px;
+    left: 38px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.6s ease;
+}
+
+.btn button:hover{
+    background-color:blue;
+    color: white;
+}
+
+/* Home section end */
+
+
+/*About section start */
+
+
+.About h2 {
+    font-weight: 700;
+}
+.About h2 span{
+    color: blue;
+    font-weight: 700;
+}
+
+
+.About h4{
+    text-transform: capitalize;
+}
+
+
+.About button{
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.6s ease;
+    border: 1px solid blue;
+    position: relative;
+    top: 30px;
+}
+
+.About button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.About img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*About section end */
+
+
+/* Top categories section start */
+.tp img{
+    border-radius: 10px;
+}
+
+/* Top categories section end*/
+
+
+
+/* menu section start */
+.Menu .stars .star{
+    color: orange;
+}
+
+.Menu p i{
+    color: orange;
+    margin-left: 130px;
+}
+
+.Menu p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* menu section end */
+
+
+/* Product section start */
+.product p i{
+    color: orange;
+    margin-left: 130px;
+}
+
+.product p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* Product section end */
+
+
+/* gallery section start */
+
+.gallery img{
+    border-radius: 10px;
+}
+
+.gallery img:hover{
+    transform: scale(1.06);
+    transition: 0.6s;
+}
+
+/* gallery section end */
+
+
+/* Conatact us section start */
+.c {
+    background: rgb(247, 241, 241);
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.c .p{
+    background: blue;
+    width: 15%;
+    height: 500px;
+    border-radius: 10px;
+    float: inline-end;
+    position: relative;
+    left: 10px;
+}
+
+.contact h2 span{
+    color: blue;
+    font-weight: 700;
+}
+
+
+.contact input{
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid black;
+    background-color: rgb(247, 241, 241);
+    width: 260px;
+    line-height: 30px;
+}
+
+.contact button{
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact .b{
+    background-color: black;
+    width: 440px;
+    height: 340px;
+    position: relative;
+    top: 80px;
+    left: 140px;
+}
+
+.contact .b {
+    color: white;
+}
+
+.contact .b h4 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/* Contact us section end */
+
+
+/* Blogs section start */
+
+.blogs h2 span{
+    color: blue;
+    font-weight: 700;
+}
+
+
+/* Blogs section end */
+
+
+/* footer section start */
+
+footer .logo img{
+   position:absolute;
+   left: 37%;
+   height: 50px;
+}
+
+footer .icons {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+footer .icons i{
+    background-color: orange;
+    border-radius: 6px;
+    padding: 6px;
+    color: black;
+}
+
+.d{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.d h6 span{
+    color: blue;
+    font-weight: 700;
+}
+
+.d p span{
+    color: blue;
+    font-weight: 700;
+}
+
+
+/* footer section end */
